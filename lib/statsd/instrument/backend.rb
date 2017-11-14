@@ -14,4 +14,6 @@ end
 require 'statsd/instrument/backends/logger_backend'
 require 'statsd/instrument/backends/null_backend'
 require 'statsd/instrument/backends/capture_backend'
+require 'statsd/instrument/backends/ip_socket_backend'
 require 'statsd/instrument/backends/udp_backend'
+require 'statsd/instrument/backends/tcp_backend'
